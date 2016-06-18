@@ -1,0 +1,32 @@
+{
+	"version": 0,
+	"dependencies": [
+		{
+			"importpath": "github.com/golang/protobuf/proto",
+			"repository": "https://github.com/golang/protobuf",
+			"revision": "8616e8ee5e20a1704615e6c8d7afcdac06087a67",
+			"branch": "master",
+			"path": "/proto"
+		},
+		{
+			"importpath": "github.com/line/line-bot-sdk-go/linebot",
+			"repository": "https://github.com/line/line-bot-sdk-go",
+			"revision": "8635ae812e60724b61ee9f0f9d9bf5c43a49f306",
+			"branch": "master",
+			"path": "/linebot"
+		},
+		{
+			"importpath": "golang.org/x/net/context",
+			"repository": "https://go.googlesource.com/net",
+			"revision": "3f122ce3dbbe488b7e6a8bdb26f41edec852a40b",
+			"branch": "master",
+			"path": "/context"
+		},
+		{
+			"importpath": "google.golang.org/appengine",
+			"repository": "https://github.com/golang/appengine",
+			"revision": "7f59a8c76b8594d06044bfe0bcbe475cb2020482",
+			"branch": "master"
+		}
+	]
+}

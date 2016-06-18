@@ -1,0 +1,23 @@
+runtime: go
+api_version: go1
+
+handlers:
+- url: /callback
+  script: _go_app
+  login: optional
+
+- url: /.*
+  script: _go_app
+  login: admin
+
+env_variables:
+  CHANNEL_ID: <CHANNEL_ID>
+  CHANNEL_SECRET: <CHANNEL_SECRET>
+  MID: <MID>
+
+automatic_scaling:
+  min_idle_instances: automatic
+  max_idle_instances: 1
+  min_pending_latency: 5000ms
+  max_pending_latency: automatic
+
